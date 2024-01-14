@@ -1,16 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+  <CalculatorApp msg="Calculator"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+
+// Import Bootstrap and BootstrapVue CSS files (order is important)
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
+import CalculatorApp from './components/CalculatorApp.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    CalculatorApp
+}
 }
 </script>
 
