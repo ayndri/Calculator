@@ -167,7 +167,6 @@ export default {
 }
 
 .calculator {
-    font-size: 24px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: minmax(50px, auto);
@@ -199,6 +198,8 @@ export default {
 }
 
 .btn {
+    font-weight: 500;
+    font-size: 26px;
     background-color: #282b32;
     display: flex;
     align-items: center;
