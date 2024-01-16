@@ -199,7 +199,7 @@ export default {
 
 .btn {
     font-weight: 500;
-    font-size: 26px;
+    font-size: 24px;
     background-color: #282b32;
     display: flex;
     align-items: center;
